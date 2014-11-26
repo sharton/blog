@@ -36,6 +36,7 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'blogengine',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -61,7 +62,7 @@ DATABASES = {
             'ENGINE': 'django.db.backends.postgresql_psycopg2', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
             'NAME': 'db_blog',                      # Or path to database file if using sqlite3.
             # The following settings are not used with sqlite3:
-            'USER': 'blog_user',
+            'USER': 'blog_admin',
             'PASSWORD': 'gfhflbuvf',
             'HOST': 'localhost',                      # Empty for localhost through domain sockets or           '127.0.0.1' for localhost through TCP.
             'PORT': '',                      # Set to empty string for default.
